@@ -25,17 +25,17 @@ public class Faktorial {
         int start = 2;
         
         for (int i = x; i > 0; i--) {
-            for(int j = 0; j < i; j++) System.out.print(" ");
+            for(int j = 0; j < i; j++) System.out.print("0");
             for (int j = 0; j < start; j++) System.out.print("*");
-            for (int j = 0; j < i; j++) System.out.print(" ");
+            for (int j = 0; j < i; j++) System.out.print("0");
             System.out.println();
             if (i != 0) start+=2;
         }
         
         for (int i = 0; i < x; i++) {
-            for(int j = 0; j < i; j++) System.out.print(" ");
+            for(int j = 0; j < i; j++) System.out.print("0");
             for (int j = 0; j < start; j++) System.out.print("*");
-            for (int j = 0; j < i; j++) System.out.print(" ");
+            for (int j = 0; j < i; j++) System.out.print("0");
             System.out.println();
             start-=2;
         }
